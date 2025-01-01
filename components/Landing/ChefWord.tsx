@@ -4,7 +4,7 @@ export default function ChefWord() {
   return (
     <div className="mb-80">
       <h1 className="text-6xl font-serif text-center tracking-wider leading-[70px]">
-        THE CHEF'S <br /> WORDS
+        THE CHEF <br /> WORDS
       </h1>
       <p className="text-center my-8 text-xl leading-8">
         Our team of seasoned chefs, each a virtuoso in their domain, craft{" "}
