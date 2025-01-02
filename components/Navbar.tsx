@@ -32,19 +32,19 @@ export default function Navbar() {
       className={`
         fixed top-0 left-0 w-full z-10 transition-all duration-300
         ${isScrolled
-          ? "bg-black/50 backdrop-blur-md py-7 shadow-lg"
+          ? "bg-black/50 backdrop-blur-md md:py-7 py-5 shadow-lg"
           : "bg-transparent py-7"
         }
       `}
     >
-      <div className="flex justify-between items-center container mx-auto px-4 md:px-32 text-white">
+      <div className="flex justify-between items-center md:px-32 pr-5 text-white">
         <Link href="/reservation">
-          <h1 className="border-y border-[#A79601] cursor-pointer py-1 hover:text-[#BCAF87] transition-span">
+          <h1 className="hidden md:block border-y border-[#A79601] cursor-pointer py-1 hover:text-[#BCAF87] transition-span">
             Reservation
           </h1>
         </Link>
         <Link href="/">
-          <p className="text-3xl">Willow & Thyme Restaurant</p>
+          <p className="text-lg md:text-3xl">Willow & Thyme Restaurant</p>
         </Link>
         <div>
           <button
@@ -68,8 +68,8 @@ export default function Navbar() {
           ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
         `}
       >
-        <ul className="flex flex-col justify-center items-end h-full space-y-5 text-3xl px-32">
-          <h1 className="text-5xl mb-28 -mt-28 mr-[330px] font-serif">Willow & Thyme Restaurant</h1>
+        <ul className="flex flex-col justify-center items-end h-full md:space-y-5 space-y-2 md:text-3xl text-lg md:px-32 px-12">
+          <h1 className="hidden md:block text-5xl mb-28 -mt-28 mr-[330px] font-serif">Willow & Thyme Restaurant</h1>
           {
             NavLinks.map((nav, i) => (
               <Link key={i} href={nav.href} onClick={closeMenu}>
@@ -77,7 +77,7 @@ export default function Navbar() {
               </Link>
             ))
           }
-          <p className="text-base text-end">Ekantakuna - Lalitpur, Nepal <br />
+          <p className="text-sm md:text-base text-end">Ekantakuna - Lalitpur, Nepal <br />
             Closed on Saturday and Sunday <br />
             Open Monday to Friday: 10:00 to 14:30 and 19:00 to 22h:30</p>
         </ul>

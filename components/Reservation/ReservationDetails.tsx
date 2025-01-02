@@ -51,7 +51,7 @@ export const ReservationDetails: React.FC<ReservationDetailsProps> = ({
 
     return (
         <div className="mt-10">
-            <div className="flex gap-10">
+            <div className="md:flex gap-10">
                 <div>
                     <h2 className="text-lg mb-2">Select a Date</h2>
                     <DayPicker
@@ -112,14 +112,14 @@ export const ReservationDetails: React.FC<ReservationDetailsProps> = ({
                 </div>
             </div>
             {selectedTables && (
-                <div className="flex justify-between text-base mt-5">
+                <div className="md:flex justify-between text-base mt-5 space-y-2">
                     <div>
                         <p className="text-sm">{formatReservationSummary()}</p>
                         <p className="text-sm font-bold leading-8">Click reserve now and fill up the form below!</p>
                     </div>
                     <button
                         onClick={onReserve}
-                        className="bg-[#BCAF87] text-lg text-white py-3 px-[44px] rounded-md hover:opacity-90 transition-opacity"
+                        className="bg-[#BCAF87] md:text-lg text-white py-3 md:px-[44px] px-5 rounded-md hover:opacity-90 transition-opacity"
                     >
                         Reserve Now
                     </button>

@@ -5,6 +5,7 @@ import { format } from 'date-fns'
 import { ReservationForm } from './ReservationForm'
 import { ReservationDetails } from './ReservationDetails'
 import 'react-day-picker/dist/style.css'
+import Link from 'next/link'
 
 export default function AboutReservation() {
     const [showCalendar, setShowCalendar] = useState(false)
@@ -56,11 +57,11 @@ export default function AboutReservation() {
 
     return (
         <>
-            <div className="flex gap-20 mb-44">
-                <div className="px-32 max-w-[800px] text-xl leading-10 mt-20">
+            <div className="md:flex gap-20 mb-44">
+                <div className="md:px-32 md:max-w-[800px] md:text-xl md:leading-10 leading-7 md:mt-20 mt-8 text-center px-2">
                     <p>Our team of seasoned chefs, each a virtuoso in their domain, craft culinary wonders that push</p>
                     <p className="text-[#BCAF87]">the boundaries of creativity.</p>
-                    <h1 className="text-base mt-10">Reservation For</h1>
+                    <h1 className="text-base md:mt-10 mt-5 text-left">Reservation For</h1>
                     <select
                         name="reservation"
                         className="cursor-pointer border text-base border-black px-2 py-4 my-3 no-dropdown outline-none w-full"
@@ -107,26 +108,28 @@ export default function AboutReservation() {
                         alt="image"
                         width={2000}
                         height={1000}
-                        className="-mt-20 object-cover h-[1377px] w-[800px] mb-28"
+                        className="-mt-20 hidden md:block object-cover h-[1377px] w-[800px] mb-28"
                     />
                 </div>
             </div>
-            <div className="flex justify-start px-20 items-center gap-60 -mt-60">
+            <div className="flex flex-col md:flex-row justify-start md:px-20 px-2 items-center md:gap-60 md:-mt-60 -mt-40 mb-10">
                 <Image
                     src="/images/aboutImg2.jpg"
                     alt="image"
                     width={1000}
                     height={1000}
-                    className="my-20 object-cover w-[600px] h-[400px]"
+                    className="md:my-20 my-16 object-cover w-[600px] h-[400px]"
                 />
-                <div className="text-lg flex flex-col items-center">
+                <div className="md:text-lg text-base flex flex-col items-center">
                     <h1 className="mb-5 text-xl">Ekantakuna-Lalitpur, Nepal</h1>
                     <p>Monday-Friday: 11am - 9pm</p>
                     <p className="my-1">Happy Hour: 2pm - 9pm</p>
                     <p className="mb-10">Saturday-Sunday: Closed</p>
-                    <span className="border-y py-2 border-[#BCAF87] font-serif cursor-pointer text-2xl hover:text-[#BCAF87] transition-span">
-                        Reserve a Table
-                    </span>
+                    <Link href='/reservation'>
+                        <span className="border-y py-2 border-[#BCAF87] font-serif cursor-pointer md:text-2xl hover:text-[#BCAF87] transition-span">
+                            Reserve a Table
+                        </span>
+                    </Link>
                 </div>
             </div>
         </>

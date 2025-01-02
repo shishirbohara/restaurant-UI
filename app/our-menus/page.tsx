@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Menus() {
     return (
         <>
-            <div className="relative w-full h-[700px]">
+            <div className="relative w-full md:h-[700px] h-[400px]">
                 <div
                     className="relative w-full h-full overflow-hidden container mx-auto"
                     style={{
@@ -19,7 +19,7 @@ export default function Menus() {
                         className="absolute w-full h-full object-cover scale-animation"
                     />
                     <div className="absolute w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/80"></div>
-                    <h1 className="text-[#BCAF87] absolute top-[40%] left-[38%] leading-[55px] text-6xl font-medium font-serif tracking-widest">
+                    <h1 className="text-[#BCAF87] absolute top-[40%] md:left-[38%] left-[18%] leading-[55px] md:text-6xl text-3xl font-medium font-serif tracking-widest">
                         OUR MENUS
                     </h1>
                 </div>

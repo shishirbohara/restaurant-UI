@@ -15,9 +15,9 @@ interface ReservationFormProps {
 
 export const ReservationForm: React.FC<ReservationFormProps> = ({ formData, setFormData, onSubmit }) => {
     return (
-        <div className="bg-white shadow-lg my-10">
-            <h2 className="text-2xl py-1 px-10">Enter Your Details</h2>
-            <form onSubmit={onSubmit} className="flex flex-col gap-4 px-10 py-5 text-base">
+        <div className="bg-white shadow-lg md:my-10 my-5">
+            <h2 className="md:text-2xl text-xl py-1 px-10">Enter Your Details</h2>
+            <form onSubmit={onSubmit} className="flex flex-col gap-4 px-10 py-5 md:text-base text-sm">
                 <input
                     type="text"
                     placeholder="Your Name"
