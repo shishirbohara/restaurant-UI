@@ -8,7 +8,7 @@ export default function AboutUs() {
         <>
             <div className="relative w-full md:h-[700px] h-[400px]">
                 <div
-                    className="relative w-full h-full overflow-hidden container mx-auto"
+                    className="relative w-full h-full overflow-hidden"
                     style={{
                         clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 82%)",
                     }}
@@ -21,7 +21,7 @@ export default function AboutUs() {
                         className="absolute w-full h-full object-cover scale-animation"
                     />
                     <div className="absolute w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/80"></div>
-                    <h1 className="text-[#BCAF87] absolute top-[40%] md:left-[40%] left-[25%] leading-[55px] md:text-6xl text-3xl font-medium font-serif tracking-widest">
+                    <h1 className="text-[#BCAF87] absolute top-[40%] xl:left-[40%] md:left-[30%] left-[25%] leading-[55px] md:text-6xl text-3xl font-medium font-serif tracking-widest">
                         ABOUT US
                     </h1>
                 </div>

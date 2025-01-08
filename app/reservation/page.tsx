@@ -6,7 +6,7 @@ export default function Reservation() {
     <>
       <div className="relative w-full md:h-[700px] h-[400px]">
         <div
-          className="relative w-full h-full overflow-hidden container mx-auto"
+          className="relative w-full h-full overflow-hidden"
           style={{
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 82%)",
           }}

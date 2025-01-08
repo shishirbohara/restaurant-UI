@@ -37,7 +37,7 @@ export default function Navbar() {
         }
       `}
     >
-      <div className="flex justify-between items-center md:px-32 pr-5 text-white">
+      <div className="flex justify-between items-center xl:px-32 px-5 xl:pr-5 text-white">
         <Link href="/reservation">
           <h1 className="hidden md:block border-y border-[#A79601] cursor-pointer py-1 hover:text-[#BCAF87] transition-span">
             Reservation
@@ -68,8 +68,8 @@ export default function Navbar() {
           ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
         `}
       >
-        <ul className="flex flex-col justify-center items-end h-full md:space-y-5 space-y-2 md:text-3xl text-lg md:px-32 px-12">
-          <h1 className="hidden md:block text-5xl mb-28 -mt-28 mr-[330px] font-serif">Willow & Thyme Restaurant</h1>
+        <ul className="flex flex-col justify-center items-end h-full md:space-y-5 space-y-2 md:text-3xl text-lg xl:px-32 px-12">
+          <h1 className="hidden xl:block text-5xl mb-28 -mt-28 mr-[330px] font-serif">Willow & Thyme Restaurant</h1>
           {
             NavLinks.map((nav, i) => (
               <Link key={i} href={nav.href} onClick={closeMenu}>

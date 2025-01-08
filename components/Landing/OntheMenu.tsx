@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function OntheMenu() {
   return (
     <>
-      <div className="bg-white md:max-w-[1020px] text-center md:ml-[400px] md:py-20 py-10 my-10 mx-2 shadow-lg md:px-20 relative bounce-animation">
+      <div className="bg-white xl:max-w-[1020px] text-center xl:ml-[400px] md:py-20 py-10 my-10 mx-2 shadow-lg md:px-20 relative bounce-animation">
         <h1 className="md:text-6xl text-4xl font-serif tracking-wider mb-10">
           On the Menu
         </h1>
