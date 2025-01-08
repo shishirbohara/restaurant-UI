@@ -19,7 +19,7 @@ export default function Reservation() {
             className="absolute w-full h-full object-cover scale-animation"
           />
           <div className="absolute w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/80"></div>
-          <h1 className="text-[#BCAF87] absolute top-[40%] md:left-[35%] left-[15%] leading-[55px] md:text-6xl text-3xl font-medium font-serif text-center tracking-widest">
+          <h1 className="text-[#BCAF87] absolute top-[40%] xl:left-[35%] md:left-[27%] left-[15%] leading-[55px] md:text-6xl text-3xl font-medium font-serif text-center tracking-widest">
             RESERVATION
           </h1>
         </div>

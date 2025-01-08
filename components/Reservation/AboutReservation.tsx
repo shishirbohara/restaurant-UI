@@ -58,7 +58,7 @@ export default function AboutReservation() {
     return (
         <>
             <div className="md:flex gap-20 mb-44">
-                <div className="md:px-32 md:max-w-[800px] md:text-xl md:leading-10 leading-7 md:mt-20 mt-8 text-center px-2">
+                <div className="xl:px-32 md:pl-24 xl:max-w-[800px] md:text-xl md:leading-10 leading-7 md:mt-20 mt-8 text-center px-2">
                     <p>Our team of seasoned chefs, each a virtuoso in their domain, craft culinary wonders that push</p>
                     <p className="text-[#BCAF87]">the boundaries of creativity.</p>
                     <h1 className="text-base md:mt-10 mt-5 text-left">Reservation For</h1>
@@ -108,11 +108,11 @@ export default function AboutReservation() {
                         alt="image"
                         width={2000}
                         height={1000}
-                        className="-mt-20 hidden md:block object-cover h-[1377px] w-[800px] mb-28"
+                        className="-mt-20 hidden lg:block object-cover h-[1377px] w-[800px] mb-28"
                     />
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-start md:px-20 px-2 items-center md:gap-60 md:-mt-60 -mt-40 mb-10">
+            <div className="flex flex-col lg:flex-row justify-start md:px-20 px-2 items-center md:gap-60 xl:-mt-60 -mt-40 mb-10">
                 <Image
                     src="/images/aboutImg2.jpg"
                     alt="image"
@@ -120,7 +120,7 @@ export default function AboutReservation() {
                     height={1000}
                     className="md:my-20 my-16 object-cover w-[600px] h-[400px]"
                 />
-                <div className="md:text-lg text-base flex flex-col items-center">
+                <div className="hidden md:text-lg text-base lg:flex flex-col items-center">
                     <h1 className="mb-5 text-xl">Ekantakuna-Lalitpur, Nepal</h1>
                     <p>Monday-Friday: 11am - 9pm</p>
                     <p className="my-1">Happy Hour: 2pm - 9pm</p>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ChefWord() {
   return (
-    <div className="xl:mb-80">
+    <div className="xl:mb-80 container mx-auto">
       <h1 className="md:text-6xl text-4xl font-serif text-center tracking-wider mt-5 md:mt-0 md:leading-[70px]">
         THE CHEF <br /> WORDS
       </h1>
@@ -24,14 +24,14 @@ export default function ChefWord() {
         alt="image"
         width={1000}
         height={1000}
-        className="hidden xl:block xl:relative xl:w-[1000px] md:h-[600px] xl:ml-[518px] mt-16 object-cover"
+        className="hidden xl:block xl:relative xl:w-[760px] md:h-[600px] xl:ml-[518px] mt-16 object-cover"
       />
       <Image
         src="/images/cooking.jpg"
         alt="image"
         width={1000}
         height={1000}
-        className="md:absolute hidden xl:block xl:w-[350px] px-2 md:px-0 xl:h-[500px] h-[300px] object-cover md:ml-[850px] md:-mt-80 mt-10 bounce-animation"
+        className="md:absolute hidden xl:block xl:w-[350px] px-2 md:px-0 xl:h-[400px] h-[300px] object-cover md:ml-[740px] md:-mt-52 mt-10 bounce-animation"
       />
       <p className="bg-white md:text-2xl text-center xl:max-w-[750px] xl:absolute md:leading-8 tracking-widest xl:ml-20 xl:-mt-[470px] xl:px-20 xl:py-16 py-5 md:my-10 xl:my-0 font-serif bounce-animation">
         I have had the privilege of <br /> working in some of the <br /> finest

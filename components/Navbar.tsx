@@ -37,7 +37,7 @@ export default function Navbar() {
         }
       `}
     >
-      <div className="flex justify-between items-center xl:px-32 px-5 xl:pr-5 text-white">
+      <div className="flex justify-between items-center lg:px-28 px-5 text-white">
         <Link href="/reservation">
           <h1 className="hidden md:block border-y border-[#A79601] cursor-pointer py-1 hover:text-[#BCAF87] transition-span">
             Reservation

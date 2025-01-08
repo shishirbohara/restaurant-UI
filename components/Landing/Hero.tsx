@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="relative w-full h-[700px]">
+
       <div
         className="relative w-full h-full overflow-hidden"
         style={{
@@ -23,6 +24,7 @@ export default function Hero() {
         <p className="text-white absolute top-[60%] left-[40%] md:left-[47%] xl:left-[48%] bg-red-800 rounded-full px-6 py-4 font-medium">
           ESTD <br /> 2023
         </p>
+
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ export default function Menu() {
                 </p>
             </div>
 
-            <div className="grid md:grid-cols-2 md:py-10 py-5 px-2 md:gap-20 gap-8 md:px-40">
+            <div className="grid xl:grid-cols-2 md:py-10 py-5 px-2 md:gap-20 gap-8 md:px-40">
                 {
                     menuData.map((menu, index) => (
                         <div key={index}>

@@ -35,7 +35,7 @@ export default function Discover() {
                         alt="image"
                         width={2000}
                         height={1000}
-                        className="hidden md:block -mt-20 absolute xl:top-[100%] right-0 object-cover xl:h-[700px] h-[695px] xl:w-[750px] w-[380px]"
+                        className="hidden md:block -mt-32 absolute xl:top-[100%] right-0 object-cover xl:h-[700px] h-[695px] xl:w-[750px] w-[380px]"
                     />
                 </div>
             </div>
