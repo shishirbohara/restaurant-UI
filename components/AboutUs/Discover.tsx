@@ -35,12 +35,12 @@ export default function Discover() {
                         alt="image"
                         width={2000}
                         height={1000}
-                        className="hidden md:block -mt-32 absolute xl:top-[100%] right-0 object-cover xl:h-[700px] h-[695px] xl:w-[750px] w-[380px]"
+                        className="hidden md:block xl:-mt-32 md:-mt-20 absolute xl:top-[100%] right-0 object-cover xl:h-[700px] h-[695px] xl:w-[750px] w-[380px]"
                     />
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-start xl:px-20 px-2 md:pl-4 items-center xl:gap-60 gap-10 md:-mt-60 -mt-72">
+            <div className="flex flex-col md:flex-row justify-start xl:px-20 px-2 md:pl-4 items-center lg:gap-60 gap-10 md:-mt-60 lg:-mt-28 -mt-72">
                 <Image
                     src="/images/aboutImg2.jpg"
                     alt="image"
@@ -48,7 +48,7 @@ export default function Discover() {
                     height={1000}
                     className="xl:my-20 mt-20 object-cover xl:w-[600px] w-[400px] xl:h-[400px] h-[300px]"
                 />
-                <div className="xl:text-lg text-base flex flex-col items-center">
+                <div className="xl:text-lg text-base flex flex-col items-center lg:mt-10">
                     <h1 className="my-8 text-xl ">Ekantakuna-Lalitpur, Nepal</h1>
                     <p>Monday-Friday: 11am - 9pm</p>
                     <p className="my-1">Happy Hour: 2pm - 9pm</p>

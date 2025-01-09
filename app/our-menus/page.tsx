@@ -19,7 +19,7 @@ export default function Menus() {
                         className="absolute w-full h-full object-cover scale-animation"
                     />
                     <div className="absolute w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/80"></div>
-                    <h1 className="text-[#BCAF87] absolute top-[40%] xl:left-[38%] md:left-[28%] left-[18%] leading-[55px] md:text-6xl text-3xl font-medium font-serif tracking-widest">
+                    <h1 className="text-[#BCAF87] absolute top-[40%] xl:left-[38%] lg:left-[33%] md:left-[28%] left-[18%] leading-[55px] md:text-6xl text-3xl font-medium font-serif tracking-widest">
                         OUR MENUS
                     </h1>
                 </div>

@@ -119,7 +119,7 @@ export const ReservationDetails: React.FC<ReservationDetailsProps> = ({
                     </div>
                     <button
                         onClick={onReserve}
-                        className="bg-[#BCAF87] md:text-lg text-white py-3 md:px-[65px] px-5 rounded-md hover:opacity-90 transition-opacity"
+                        className="bg-[#BCAF87] md:text-lg text-white py-3 md:px-[65px] lg:px-6 px-5 rounded-md hover:opacity-90 transition-opacity"
                     >
                         Continue
                     </button>
