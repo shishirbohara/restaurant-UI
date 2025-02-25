@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Skipping tests, no real tests available.\""
   },
   "dependencies": {
     "@types/react-datepicker": "^7.0.0",
